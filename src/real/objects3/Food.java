@@ -10,5 +10,18 @@ package real.objects3;
  * @author linhdo
  */
 public class Food {
+    private double RetailPrice;
+
+    public final double getRetailPrice() {
+        return RetailPrice;
+    }
+
+    public final void setRetailPrice(double RetailPrice) {
+        this.RetailPrice = RetailPrice;
+    }
+    
+    public final void ExpDate(){
+        
+    }
     
 }

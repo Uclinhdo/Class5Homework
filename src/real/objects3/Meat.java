@@ -9,7 +9,7 @@ package real.objects3;
  *
  * @author linhdo
  */
-public class Meat {
+public class Meat extends Food{
     
     private double RetailPrice;
 

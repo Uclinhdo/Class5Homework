@@ -9,7 +9,7 @@ package real.objects3;
  *
  * @author linhdo
  */
-public class Beef {
+public class Beef extends Meat {
     private String BeefBrand;
 
     public final String getBeefBrand() {
