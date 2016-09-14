@@ -9,6 +9,11 @@ package imaginary.objects;
  *
  * @author linhdo
  */
-public class FictionalSuperhero {
+public interface FictionalSuperhero extends Character{
+    
+    
+     public abstract void HaveParabnormalAbilities();
+         
+     
     
 }

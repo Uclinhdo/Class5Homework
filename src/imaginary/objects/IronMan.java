@@ -9,6 +9,22 @@ package imaginary.objects;
  *
  * @author linhdo
  */
-public class IronMan {
+public class IronMan implements FictionalSuperhero {
+
+    @Override
+    public void HaveParabnormalAbilities() {
+        
+    }
+
+    @Override
+    public void speak() {
+        
+    }
     
+    public void HavePersonalWeaponry(){
+        
+    }
+    public void Appearance(){
+        
+    }
 }

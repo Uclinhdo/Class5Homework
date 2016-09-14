@@ -9,6 +9,8 @@ package imaginary.objects;
  *
  * @author linhdo
  */
-public class Character {
+public interface Character {
+     
+    public abstract void speak();
     
 }
