@@ -23,7 +23,7 @@ public class Beef extends Meat {
     
     @Override
     public void ExpDate(){
-        System.out.println("6 months from the produced date.");
+        System.out.println("The exp date is: 6 months from the produced date.");
         
     }
     
@@ -31,7 +31,7 @@ public class Beef extends Meat {
     
     @Override
     public void NutritionFact(){
-        System.out.println("unknown");
+        System.out.println("The nutrition fact is: less fat");
     }
     
 }

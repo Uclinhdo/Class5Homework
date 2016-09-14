@@ -23,10 +23,8 @@ public abstract class Meat implements Food{
     }
     
     public void NutritionFact(){
-        
+        System.out.println("less fat");
     }
-    public void BrandName(){
-        
-    }
+    
     
 }
