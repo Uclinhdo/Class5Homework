@@ -9,6 +9,6 @@ package real.objects2;
  *
  * @author linhdo
  */
-public class Food {
+public abstract class Food {
     
 }

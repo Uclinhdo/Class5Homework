@@ -9,6 +9,16 @@ package real.objects2;
  *
  * @author linhdo
  */
-public class Meat {
+public abstract class Meat extends Food {
+    private double RetailPrice;
+
+    public double getRetailPrice() {
+        return RetailPrice;
+    }
+
+    public void setRetailPrice(double RetailPrice) {
+        this.RetailPrice = RetailPrice;
+    }
+    
     
 }
