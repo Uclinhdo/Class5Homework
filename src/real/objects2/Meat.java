@@ -12,16 +12,19 @@ package real.objects2;
 public abstract class Meat extends Food {
     private double RetailPrice;
 
+    @Override
+
     public double getRetailPrice() {
         return RetailPrice;
     }
 
+    @Override
     public void setRetailPrice(double RetailPrice) {
         this.RetailPrice = RetailPrice;
     }
      
     public void NutritionFact(){
-        
+        System.out.println("The nutrition fact is: more protein.");
     }
     
 }

@@ -20,10 +20,15 @@ public class Beef extends Meat {
         this.BeefBrand = BeefBrand;
     }
     
+    /**
+     *
+     */
+    @Override
     public void ExpDate(){
         System.out.println("The exp date is: 6 months from the produced date.");
     }
+    @Override
     public void NutritionFact(){
-        System.out.println("The nutrition fact is: less fat.");
+        System.out.println("The nutrition fact is: more protein.");
     }
 }

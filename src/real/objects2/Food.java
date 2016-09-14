@@ -11,4 +11,11 @@ package real.objects2;
  */
 public abstract class Food {
     
+    public abstract void setRetailPrice(double RetailPrice);
+        
+    
+    public abstract double getRetailPrice();
+    
+    public abstract void ExpDate();
+    
 }

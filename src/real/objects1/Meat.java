@@ -23,7 +23,7 @@ public abstract class Meat implements Food{
     }
     
     public void NutritionFact(){
-        System.out.println("less fat");
+        System.out.println("The nutrition fact is: more protein.");
     }
     
     

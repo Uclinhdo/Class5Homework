@@ -30,7 +30,7 @@ public class Beef extends Meat {
     
     @Override
     public void NutritionFact(){
-        System.out.println("The nutrition fact is: less fat.");
+        System.out.println("The nutrition fact is: more protein.");
         
     }
     
