@@ -23,7 +23,7 @@ public abstract class Meat extends Food {
         this.RetailPrice = RetailPrice;
     }
      
-    public void NutritionFact(){
+    public void HaveNutritionFact(){
         System.out.println("The nutrition fact is: more protein.");
     }
     
