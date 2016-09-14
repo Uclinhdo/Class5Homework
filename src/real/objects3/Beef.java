@@ -10,5 +10,19 @@ package real.objects3;
  * @author linhdo
  */
 public class Beef {
+    private String BeefBrand;
+
+    public final String getBeefBrand() {
+        return BeefBrand;
+    }
+
+    public final void setBeefBrand(String BeefBrand) {
+        this.BeefBrand = BeefBrand;
+    }
+    
+    
+    public final void ExpDate(){
+        
+    }
     
 }
