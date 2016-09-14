@@ -12,15 +12,15 @@ package real.objects3;
 public class Food {
     private double RetailPrice;
 
-    public final double getRetailPrice() {
+    public double getRetailPrice() {
         return RetailPrice;
     }
 
-    public final void setRetailPrice(double RetailPrice) {
+    public void setRetailPrice(double RetailPrice) {
         this.RetailPrice = RetailPrice;
     }
     
-    public final void ExpDate(){
+    public void ExpDate(){
         
     }
     
