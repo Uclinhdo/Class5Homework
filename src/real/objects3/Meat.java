@@ -11,15 +11,7 @@ package real.objects3;
  */
 public class Meat extends Food{
     
-    private double RetailPrice;
-
-    public final double getRetailPrice() {
-        return RetailPrice;
-    }
-
-    public final void setRetailPrice(double RetailPrice) {
-        this.RetailPrice = RetailPrice;
-    }
+    
     
     public final void NutritionFact(){
         System.out.println("The nutrition fact is: more protein.");

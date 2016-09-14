@@ -12,16 +12,16 @@ package real.objects3;
 public class Food {
     private double RetailPrice;
 
-    public double getRetailPrice() {
+    public final double getRetailPrice() {
         return RetailPrice;
     }
 
-    public void setRetailPrice(double RetailPrice) {
+    public final void setRetailPrice(double RetailPrice) {
         this.RetailPrice = RetailPrice;
     }
     
-    public void ExpDate(){
-        
+    public final void ExpDate(){
+        System.out.println("The exp date is: 6 months from the produced date.");
     }
     
 }

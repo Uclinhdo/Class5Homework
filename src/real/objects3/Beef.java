@@ -21,8 +21,6 @@ public class Beef extends Meat {
     }
     
     
-    public final void ExpDate(){
-        System.out.println("The exp date is 6 months from the produced date.");
-    }
+    
     
 }
