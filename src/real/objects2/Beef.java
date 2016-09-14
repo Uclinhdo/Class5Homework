@@ -10,5 +10,20 @@ package real.objects2;
  * @author linhdo
  */
 public class Beef extends Meat {
+    private String BeefBrand;
+
+    public String getBeefBrand() {
+        return BeefBrand;
+    }
+
+    public void setBeefBrand(String BeefBrand) {
+        this.BeefBrand = BeefBrand;
+    }
     
+    public void ExpDate(){
+        System.out.println("The exp date is: 6 months from the produced date.");
+    }
+    public void NutritionFact(){
+        System.out.println("The nutrition fact is: less fat.");
+    }
 }

@@ -19,6 +19,9 @@ public abstract class Meat extends Food {
     public void setRetailPrice(double RetailPrice) {
         this.RetailPrice = RetailPrice;
     }
-    
+     
+    public void NutritionFact(){
+        
+    }
     
 }
