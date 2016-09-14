@@ -30,10 +30,10 @@ public class Class5Homework {
         
         
         Food b2 = new Beef();
-        b2.ExpDate();
+        b2.HaveExpDate();
         
         Meat b3 = new Beef();
-        b3.NutritionFact();
+        b3.HaveNutritionFact();
         
         
         

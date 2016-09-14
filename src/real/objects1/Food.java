@@ -20,7 +20,7 @@ public interface Food {
     
     public abstract double getRetailPrice();
     
-    public abstract void ExpDate();
+    public abstract void HaveExpDate();
       
   
     
