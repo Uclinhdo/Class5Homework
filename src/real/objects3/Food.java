@@ -20,7 +20,7 @@ public class Food {
         this.RetailPrice = RetailPrice;
     }
     
-    public final void ExpDate(){
+    public final void HaveExpDate(){
         System.out.println("The exp date is: 6 months from the produced date.");
     }
     

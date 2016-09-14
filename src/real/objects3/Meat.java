@@ -13,7 +13,7 @@ public class Meat extends Food{
     
     
     
-    public final void NutritionFact(){
+    public final void HaveNutritionFact(){
         System.out.println("The nutrition fact is: more protein.");
     }
     
