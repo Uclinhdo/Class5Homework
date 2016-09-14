@@ -22,7 +22,7 @@ public class Meat {
     }
     
     public final void NutritionFact(){
-        
+        System.out.println("The nutrition fact is: more protein.");
     }
     
 }
