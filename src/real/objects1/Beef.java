@@ -12,7 +12,7 @@ package real.objects1;
 public class Beef extends Meat {
     private String BeefBrand;
 
-    public String getBeefBrand() {
+    public final String getBeefBrand() {
         return BeefBrand;
     }
 
@@ -22,14 +22,14 @@ public class Beef extends Meat {
     
     
     @Override
-    public void HaveExpDate(){
+    public final void HaveExpDate(){
         System.out.println("The exp date is: 6 months from the produced date.");
         
     }
     
     
     @Override
-    public void HaveNutritionFact(){
+    public final void HaveNutritionFact(){
         System.out.println("The nutrition fact is: more protein.");
         
     }
