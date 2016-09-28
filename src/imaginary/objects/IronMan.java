@@ -12,19 +12,21 @@ package imaginary.objects;
 public class IronMan implements FictionalSuperhero {
 
     @Override
-    public void HaveParabnormalAbilities() {
+    public final void HaveParabnormalAbilities() {
         
     }
 
     @Override
-    public void speak() {
+    public final void speak() {
         
     }
     
-    public void HavePersonalWeaponry(){
+    public final void HavePersonalWeaponry(){
+        System.out.println("I have a special weapon!Watch out!");
         
     }
-    public void Appearance(){
+    public final void Appearance(){
+        System.out.println("Look at me!! Im so handsome!");
         
     }
 }
